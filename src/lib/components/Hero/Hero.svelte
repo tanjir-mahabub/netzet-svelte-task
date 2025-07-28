@@ -14,7 +14,7 @@
 	</div>
 
 	<div
-		class="pointer-events-none relative flex xl:block h-full mt-8 w-full flex-1 md:absolute md:-top-12 md:right-[45px] md:mt-0 md:h-full md:w-1/2"
+		class="pointer-events-none relative mt-8 flex h-full w-full flex-1 md:absolute md:-top-12 md:right-[45px] md:mt-0 md:h-full md:w-1/2 xl:block"
 	>
 		<div class="relative mx-auto min-h-[426px] w-full md:min-h-[673px] xl:w-[666px]">
 			<img src="/phone.png" alt="App Preview" class="h-full w-full object-contain" />

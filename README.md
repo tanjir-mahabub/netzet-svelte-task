@@ -1,38 +1,132 @@
-# sv
+# Netzet Svelte Task
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A modern web project built with **SvelteKit**, **TailwindCSS**, and **TypeScript**, initialized using the official [`sv`](https://github.com/sveltejs/cli). This project is optimized for fast development and deployment on **Vercel**.
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🚀 Tech Stack
 
-```sh
-# create a new project in the current directory
-npx sv create
+- [SvelteKit](https://kit.svelte.dev/) – Full-stack application framework
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) – Static type checking
+- [Vercel](https://vercel.com/) – Zero-config deployment
+- [pnpm](https://pnpm.io/) – Fast, disk-efficient package manager
 
-# create a new project in my-app
-npx sv create my-app
+---
+
+## 📦 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/netzet-svelte-task.git
+cd netzet-svelte-task
+pnpm install
 ```
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🧪 Development
 
-```sh
-npm run dev
+Start a development server:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```bash
+pnpm dev
 ```
 
-## Building
+Or with automatic browser open:
 
-To create a production version of your app:
-
-```sh
-npm run build
+```bash
+pnpm dev -- --open
 ```
 
-You can preview the production build with `npm run preview`.
+---
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 🛠 Build
+
+Create a production build of the app:
+
+```bash
+pnpm build
+```
+
+Preview the production build locally:
+
+```bash
+pnpm preview
+```
+
+---
+
+## ☁️ Deployment (Vercel)
+
+This project uses the official **Vercel adapter** for deployment.
+
+### Deploy Steps:
+
+1. Push this project to GitHub/GitLab/Bitbucket.
+2. Visit [vercel.com](https://vercel.com) and import the repository.
+3. Vercel will auto-detect the SvelteKit + Vite project.
+4. No extra configuration needed. Click "Deploy".
+
+> The adapter is already configured in `svelte.config.js`:
+
+```ts
+import vercel from '@sveltejs/adapter-vercel';
+export default {
+	kit: {
+		adapter: vercel()
+	}
+};
+```
+
+---
+
+## 🎨 Styling
+
+TailwindCSS is fully integrated. Configuration is in:
+
+- `tailwind.config.js`
+- `src/app.postcss` or `src/app.css`
+
+Customize utility classes and themes as needed.
+
+---
+
+## 🧹 Linting & Formatting
+
+This project includes:
+
+- `eslint` – Linting
+- `prettier` – Code formatting
+
+Run manually:
+
+```bash
+pnpm lint
+pnpm format
+```
+
+---
+
+## 📁 Project Structure (Minimal)
+
+```
+netzet-svelte-task/
+├── src/
+│   ├── routes/       → SvelteKit routing
+│   ├── lib/          → Components, utilities
+│   └── app.css       → Tailwind entry CSS
+├── svelte.config.js  → SvelteKit config
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## 🧾 License
+
+[MIT](LICENSE)
+
+---

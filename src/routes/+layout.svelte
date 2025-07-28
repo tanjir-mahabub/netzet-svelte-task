@@ -1,14 +1,14 @@
 <script lang="ts">
-import "../app.css";
+	import '../app.css';
 </script>
 
 <!-- HTML & body wrapper -->
 <svelte:head>
-  <title>Fametonic SvelteKit</title>
-  <meta name="description" content="Fametonic SvelteKit Application" />
-  <html lang="en"></html>
+	<title>Fametonic SvelteKit</title>
+	<meta name="description" content="Fametonic SvelteKit Application" />
+	<html lang="en"></html>
 </svelte:head>
 
-<body class="antialiased bg-dark text-white font-figtree">
-  <slot />
+<body class="bg-dark font-figtree text-white antialiased">
+	<slot />
 </body>

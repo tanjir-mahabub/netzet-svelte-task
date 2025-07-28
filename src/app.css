@@ -2,35 +2,23 @@
 
 @import 'tailwindcss';
 
-
-
 @theme {
-    --font-figtree: "Figtree", sans-serif;
-    --font-urbanist: "Urbanist", sans-serif;
-    --font-nunito: "Nunito", sans-serif;
+	--font-figtree: 'Figtree', sans-serif;
+	--font-urbanist: 'Urbanist', sans-serif;
+	--font-nunito: 'Nunito', sans-serif;
 
-    --color-primary: #FC004E;
-    --color-secondary: #10CBE0;
-    --color-tertiary: #ABABAB;
-    --color-quaternary: #A9A9A9;
+	--color-primary: #fc004e;
+	--color-secondary: #10cbe0;
+	--color-tertiary: #ababab;
+	--color-quaternary: #a9a9a9;
 
-    --color-dark: #010101;    
+	--color-dark: #010101;
 
-    --gradient-primary-secondary: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-     
-    --breakpoint-xs: 390px;
-}
+	--gradient-primary-secondary: linear-gradient(
+		90deg,
+		var(--color-primary) 0%,
+		var(--color-secondary) 100%
+	);
 
-.bg-gradient-primary-secondary {
-    background-image: var(--gradient-primary-secondary);
-}
-
-@layer base {
-    /* Banner Section */
-    .banner-emoji {
-        @apply font-figtree font-extrabold leading-none text-center md:text-right text-[16px] lg:text-[22px] flex-shrink-0;
-    }
-    .banner-text {
-        @apply font-figtree text-white leading-none text-center md:text-left text-[16px] sm:text-[18px] xl:text-[22px];
-    }
+	--breakpoint-xs: 390px;
 }

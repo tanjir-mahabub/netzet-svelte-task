@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+    import Header from "$lib/components/Header.svelte";
+</script>
+
+<main class="bg-dark text-white min-h-screen overflow-auto lg:overflow-hidden">  
+  <article class="container mx-auto max-w-[960px]">
+    <Header />    
+  </article>
+</main>

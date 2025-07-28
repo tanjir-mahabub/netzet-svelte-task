@@ -16,7 +16,7 @@
 	@reference "../../../app.css";
 
 	.cta-button {
-		@apply h-[40px] w-full cursor-pointer rounded-[10px] bg-primary font-figtree text-xl leading-none font-bold drop-shadow-[2px_2px_10px_var(--color-secondary)] transition-all duration-300 hover:bg-primary/90;
+		@apply h-[40px] w-full cursor-pointer rounded-[10px] bg-primary font-figtree text-xl leading-none font-bold drop-shadow-[2px_2px_10px_rgb(0,231,249)] transition-all duration-300 hover:bg-primary/90;
 	}
 
 	.cta-subtext {

@@ -5,8 +5,8 @@
 		>
 			<span class="banner-emoji">🚀</span>
 			<p class="banner-text">
-				<span class="font-extrabold text-secondary">FRESH BEGINNINGS SALE:</span>
-				<span class="font-semibold"> Extra 25% OFF, Limited Spots — start your journey today!</span>
+				<span class="font-extrabold text-[#00E7F9]">FRESH BEGINNINGS SALE:</span>
+				<span class="font-semibold"> Extra 25% OFF, Limited Spots - start your journey today!</span>
 			</p>
 		</div>
 	</div>
@@ -22,6 +22,6 @@
 		@apply flex-shrink-0 text-center font-figtree text-[16px] leading-none font-extrabold md:text-right lg:text-[22px];
 	}
 	.banner-text {
-		@apply text-center font-figtree text-[16px] leading-none text-white sm:text-[18px] md:text-left xl:text-[22px];
+		@apply text-center font-figtree text-[16px] leading-none text-white sm:text-[18px] md:text-left xl:text-[22px] tracking-wide;
 	}
 </style>

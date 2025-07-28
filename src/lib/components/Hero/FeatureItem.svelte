@@ -2,7 +2,7 @@
 	export let text: string;
 </script>
 
-<li class="flex items-start gap-2.5 md:gap-1">
+<li class="flex items-start gap-2.5 md:gap-2.5">
 	<img
 		src="/stars.png"
 		alt="Stars Icon"

@@ -1,5 +1,5 @@
 <header
-	class="relative mt-5 flex h-[46px] items-center justify-between px-6 py-4 md:items-start md:justify-start lg:h-full"
+	class="relative sm:mt-5 flex h-[76px] lg:h-full items-center justify-between px-3 sm:px-6 py-4 md:items-start md:justify-start"
 >
 	<div class="absolute left-1/2 -translate-x-1/2 md:static md:left-0 md:translate-x-0">
 		<div class="relative h-[46px] w-[108px] sm:w-[120px] xl:h-[74px] xl:w-[173px]">
@@ -8,7 +8,7 @@
 	</div>
 
 	<nav
-		class="ml-auto hidden gap-8 font-figtree text-[18px] leading-[100%] font-semibold text-quaternary md:flex px-5"
+		class="ml-auto hidden gap-10 font-figtree text-[18px] leading-[100%] font-semibold text-quaternary md:flex px-3"
 	>
 		<a href="/" class="hover:underline">About us</a>
 		<a href="/" class="hover:underline">Contact</a>

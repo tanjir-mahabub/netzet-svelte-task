@@ -1,8 +1,8 @@
 <h1 class="hero-heading leading-[1.1] ">
-	Want to Turn Social Media Into a <br /> Profitable Career?
+	Want to Turn Social Media Into a Profitable Career?
 </h1>
 <h2 class="hero-heading hero-heading-highlight leading-[1.15]">
-	Discover your way to success <br /> with Fametonic:
+	Discover your way to success with Fametonic:
 </h2>
 
 <style>

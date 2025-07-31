@@ -8,7 +8,7 @@
 	];
 </script>
 
-<ul class="space-y-3 font-figtree text-[16px] leading-[22px] font-normal lg:font-semibold">
+<ul class="mt-5 space-y-3 font-figtree text-[16px] leading-[22px] tracking-[0.01em] font-normal lg:font-semibold">
 	{#each features as feature}
 		<FeatureItem text={feature} />
 	{/each}

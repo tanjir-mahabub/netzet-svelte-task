@@ -6,7 +6,7 @@
 
 <main class="min-h-screen overflow-auto bg-dark text-white lg:overflow-hidden">
 	<Banner />
-	<article class="container mx-auto max-w-[1020px]">
+	<article class="container mx-auto max-w-[1070px]">
 		<Header />
 		<Hero />
 	</article>

@@ -2,13 +2,13 @@
 	class="relative mt-5 flex h-[46px] items-center justify-between px-6 py-4 md:items-start md:justify-start lg:h-full"
 >
 	<div class="absolute left-1/2 -translate-x-1/2 md:static md:left-0 md:translate-x-0">
-		<div class="relative h-[46.07px] w-[107.78px] sm:w-[120px] xl:h-[74px] xl:w-[173.12px]">
+		<div class="relative h-[46px] w-[108px] sm:w-[120px] xl:h-[74px] xl:w-[173px]">
 			<img src="/logo.svg" alt="Fametonic Logo" class="h-full w-full object-contain" />
 		</div>
 	</div>
 
 	<nav
-		class="ml-auto hidden gap-8 font-figtree text-[18px] leading-[100%] font-semibold text-quaternary md:flex"
+		class="ml-auto hidden gap-8 font-figtree text-[18px] leading-[100%] font-semibold text-quaternary md:flex px-5"
 	>
 		<a href="/" class="hover:underline">About us</a>
 		<a href="/" class="hover:underline">Contact</a>

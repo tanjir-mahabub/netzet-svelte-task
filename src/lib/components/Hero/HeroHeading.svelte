@@ -1,7 +1,7 @@
-<h1 class="hero-heading">
+<h1 class="hero-heading leading-[1.1] ">
 	Want to Turn Social Media Into a <br /> Profitable Career?
 </h1>
-<h2 class="hero-heading hero-heading-highlight">
+<h2 class="hero-heading hero-heading-highlight leading-[1.15]">
 	Discover your way to success <br /> with Fametonic:
 </h2>
 
@@ -9,7 +9,7 @@
 	@reference "../../../app.css";
 
 	.hero-heading {
-		@apply text-center font-urbanist text-[25px] leading-[1.15] font-extrabold sm:text-[28px] md:text-left md:font-bold xl:text-[35px];
+		@apply text-center font-urbanist text-[25px] font-extrabold sm:text-[28px] md:text-left md:font-bold xl:text-[35px];
 	}
 
 	.hero-heading-highlight {

@@ -1,7 +1,7 @@
-<section class="bg-gradient-primary-secondary h-full w-full py-2 xs:h-[76px] xs:py-0 lg:h-[46px]">
+<section class="bg-gradient-primary-secondary h-full w-full px-1 py-2 xs:h-[76px] xs:py-0 lg:h-[46px]">
 	<div class="container mx-auto flex h-full w-fit max-w-[960px] items-center justify-center px-3">
 		<div
-			class="flex max-w-[350px] items-start text-center sm:max-w-[500px] md:max-w-fit md:text-left lg:gap-1"
+			class="flex max-w-[350px] items-start text-center sm:max-w-[500px] md:max-w-fit md:text-left lg:gap-0.5"
 		>
 			<span class="banner-emoji">🚀</span>
 			<p class="banner-text">
@@ -22,6 +22,6 @@
 		@apply flex-shrink-0 text-center font-figtree text-[16px] leading-none font-extrabold md:text-right lg:text-[22px];
 	}
 	.banner-text {
-		@apply text-center font-figtree text-[16px] leading-none text-white sm:text-[18px] md:text-left xl:text-[22px] tracking-wide;
+		@apply text-center font-figtree text-[16px] leading-none text-white sm:text-[18px] md:text-left xl:text-[22px] tracking-[0.005em];
 	}
 </style>
